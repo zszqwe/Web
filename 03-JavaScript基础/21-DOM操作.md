@@ -809,18 +809,13 @@ DOM对象的属性和HTML的标签属性几乎是一致的。例如：src、titl
 
 **获取内容举例：**
 
-如果我们想获取innerHTML和innerText里的内容，看看会如何：
+如果我们想获取innerHTML和innerText里的内容，看看会如何：（innerHTML会获取到标签本身，而innerText则不会）
 
 ![](http://img.smyhvae.com/20180127_1652.png)
 
-上图显示，因为innerText识别不出标签，所以把标签也给获取到了。
-
-
-**修改内容举例：**
+**修改内容举例：**（innerHTML会修改标签本身，而innerText则不会）
 
 ![](http://img.smyhvae.com/20180127_1657.png)
-
-上图显示，因为innerText识别不出标签，所以把标签也给添加进去了。
 
 ### nodeType属性
 
@@ -906,7 +901,7 @@ DOM对象的属性和HTML的标签属性几乎是一致的。例如：src、titl
 
 ## 我的公众号
 
-想学习<font color=#0000ff>**代码之外的软技能**</font>？不妨关注我的微信公众号：**千古壹号**（id：`qianguyihao`）。
+想学习<font color=#0000ff>**代码之外的技能**</font>？不妨关注我的微信公众号：**千古壹号**（id：`qianguyihao`）。
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
